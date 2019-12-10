@@ -2,7 +2,7 @@
     {{-- Header --}}
     @slot('header')
         @component('mail::header', ['url' => config('app.url')])
-            <img src={{asset('imgs/logo.png')}} alt="ISA Commercial Cleaning Services logo.">
+            <img src={{asset('imgs/logo.webp')}} alt="ISA Commercial Cleaning Services logo.">
         @endcomponent    
     @endslot
 
