@@ -2,4 +2,4 @@ User-agent: *
 Sitemap: https://www.isaclean.ca/sitemap.xml
 Disallow: /css/
 Disallow: /js/
-Disallow: /testimonial-form/
+Disallow: /testimonial-form

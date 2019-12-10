@@ -10,6 +10,7 @@
 
         gtag('config', 'UA-152699551-1');
         </script>
+        <meta name="google-site-verification" content="x3Qe45hHk2uraeRwnVUilQnrABwqyVY-axKV8AKilZg" />
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
