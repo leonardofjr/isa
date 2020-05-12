@@ -4,29 +4,28 @@
     <meta name="description"  content="ISA Commercial Cleaning Services has been providing commercial and janitorial cleaning services for offices, churches, daycares, schools and much more.">
 @endsection
 @section('content')
-    <section class="bg-primary main-section section-1 ">
+<section id="jumbotron" class="d-md-flex align-items-md-center">
+    <div class="jumbotron-overlay"></div>
         <div class="container">
-            <div class="row pt-4">
-                <div class="col-lg-8 p-md-0">
-                    <h1>WHAT TYPE OF JANITORIAL CLEANING SERVICE DO YOU NEED?</h1>
-
-                    <p>Start saving money with our affordable janitorial cleaning services.</p>
-
-                    <ul class="mb-4">
-                        <li>Commercial Cleaning</li>
-                        <li>Office Cleaning</li>
-                        <li>School Cleaning</li>
-                        <li>Daycare Cleaning</li>
-                        <li>Church Cleaning</li>
-                    </ul>
-                    <a href="get-a-free-quote"> <button class="btn btn-secondary mb-3" style="font-size: 1.4em;">Get a Free Quote</button></a>
+            <div class="row content">
+                <div class="col-md-8">
+                    <h1 class="h1 pb-3">BEST PROFESSIONAL CLEANING SERVICES IN MARKHAM, RICHMOND HILL AND PICKERING. </h1>
+                    <p class="lead text-uppercase">Cleaning satisfaction starts with communication.</p>
+                    <p>Stop wasting money in poor cleaning services that promise but never deliver and just <a class="link" href="contact">contact us</a> to find out why we're Markham's most reliable cleaning service today.</p>
+                    <div class="btn-wrapper mb-3">
+                        <a href="tel://6476889189"> <button class="btn btn-white-transparent font-weight-bold">(647) 688-9189</button></a>
+                        <a mail="mailto:info@isaclean.ca"> <button class="btn btn-white-transparent font-weight-bold">info@isaclean.ca</button></a>
+                    </div>
                 </div>
-                <div class="col-lg-4 p-md-0">
-                    <img class="img-fluid" src="imgs/janitor-dust-mopping.png" alt="The image displays a black and white image of a janitor dust mopping and a mop bucket to his right.">
+
+                <div class="col-md-4">
+                    <div class="bg-white-transparent px-5 py-2">
+                        <h3 class="pb-3">GET A FREE QUOTE</h3>
+                        @include('frontend.components.forms.free-quote')
+                    </div>
                 </div>
             </div>
-         </div>
-
+        </div>
     </section>
     <section class="container main-section section-2">
               <div class="row">

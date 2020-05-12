@@ -24,18 +24,9 @@ class GetAFreeQuoteFormValidation extends FormRequest
     public function rules()
     {
         return [
-            'company_name' => 'required',
-            'first_name' => 'required',
-            'last_name' => 'required',
+            'name' => 'required',
             'email' => 'required',
             'phone' => 'required',
-            'street_address' => 'required',
-            'city' => 'required',
-            'postal_code' => 'required',
-            'province' => 'required',
-            'facility_type' => 'required',
-            'frequency' => 'required',
-            'message' => 'required',
         ];
     }
 }

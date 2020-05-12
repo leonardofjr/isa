@@ -1,12 +1,24 @@
-header {
-    margin-bottom: 1em;
-}
+#jumbotron {
+    background: url('imgs/floor-scrubbing-machine.webp') center/cover no-repeat;
+    position: relative;
+    height: 1100px;
 
+    .jumbotron-overlay {
+        background-color: rgba(0, 0, 51, 0.8);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .content {
+        z-index: 1000;
+        color: #fff;
+    }
+}
 /* Logo */
 .navbar-brand img  {
     width: 120px;
 
     @include breakpoint(md) {
-        width: 160px;
+        width: 120px;
     }
 }

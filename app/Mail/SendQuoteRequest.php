@@ -31,17 +31,11 @@ class SendQuoteRequest extends Mailable
         return $this->from(env('MAIL_FROM_ADDRESS'))
                     ->markdown('mail.quote')
                     ->with([
-                        'company_name' => $request->company_name,
-                        'first_name' => $request->first_name,
-                        'last_name' => $request->last_name,
+                        'name' => $request->name,
                         'email' => $request->email,
                         'phone' => $request->phone,
-                        'street_address' => $request->street_address,
                         'city' => $request->city,
-                        'postal_code' => $request->postal_code,
                         'province' => $request->province,
-                        'facility_type' => $request->facility_type,
-                        'frequency' => $request->frequency,
                         'message' => $request->message,
                     ]);
     }
