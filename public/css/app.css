@@ -10693,13 +10693,13 @@ link:hover {
 }
 
 #topbar {
-  background: #000033;
+  background: #fff;
   padding: 0.5rem;
   text-align: right;
 }
 
 #topbar a {
-  color: #fff;
+  color: #000033;
 }
 
 #jumbotron {
@@ -10720,20 +10720,33 @@ link:hover {
   color: #fff;
 }
 
-/* Logo */
+/* Header */
 
-.navbar-brand img {
+header {
+  background: #fff;
+  /* Logo */
+}
+
+header .navbar-brand img {
   width: 120px;
 }
 
 @media (min-width: 992px) {
-  .navbar-brand img {
+  header .navbar-brand img {
     width: 120px;
   }
 }
 
 footer {
   background: #f5f5f5;
+}
+
+body {
+  background: #fff;
+}
+
+.page {
+  background-color: #fff;
 }
 
 p,

@@ -36,5 +36,5 @@
     @error('message')
         <div class="alert alert-danger">{{ $message }}</div>
     @enderror
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-white-transparent">Submit</button>
  </form>

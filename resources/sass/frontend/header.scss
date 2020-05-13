@@ -14,11 +14,16 @@
         color: #fff;
     }
 }
-/* Logo */
-.navbar-brand img  {
-    width: 120px;
 
-    @include breakpoint(md) {
+/* Header */
+header {
+    background: #fff;
+    /* Logo */
+    .navbar-brand img  {
         width: 120px;
+
+        @include breakpoint(md) {
+            width: 120px;
+        }
     }
 }
