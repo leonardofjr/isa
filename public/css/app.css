@@ -10743,6 +10743,7 @@ footer {
 
 body {
   background: #fff;
+  font-size: 16px;
 }
 
 .page {
@@ -10759,25 +10760,48 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+@media (min-width: 1200px) {
+  p {
+    line-height: 1.375em;
+  }
+}
+
 h1 {
-  font-size: 24px;
+  font-size: 2em;
+  line-height: 1.25em;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.625em;
   font-weight: 400;
+  line-height: 1.15384615em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.375em;
+  line-height: 1.13636364em;
 }
 
-p {
-  font-size: 12px;
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111em;
+}
+
+img {
+  margin-bottom: 1.4em 0;
 }
 
 .btn-secondary {
   background-color: #bbdd33 !important;
+}
+
+img {
+  margin-bottom: 1.4em 0;
 }
 
 @media (min-width: 992px) {

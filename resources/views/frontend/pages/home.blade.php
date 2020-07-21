@@ -10,8 +10,8 @@
         <div class="container">
             <div class="row content">
                 <div class="col-md-8">
-                    <h1 class="h1 pb-3">BEST PROFESSIONAL CLEANING SERVICES IN MARKHAM</h1>
-                    <p class="lead">Our mission is to provide you with a healthy clean environment for you, your staff and your visitors. <a class="link" href="get-a-free-quote"> Find out why we're Markham's most reliable cleaning service</a>.</p>
+                    <h1 class="pb-3">BEST PROFESSIONAL CLEANING SERVICES IN MARKHAM</h1>
+                    <p class="lead">Our mission is to provide you with a healthy clean environment for you, your staff and your visitors. <a class="link" href="get-a-free-quote"> Find out why we're the reliable cleaning service</a>.</p>
                     <div class="btn-wrapper mb-3">
                         <a href="tel://6476889189"> <button class="btn btn-white-transparent font-weight-bold">(647) 688-9189</button></a>
                         <a mail="mailto:info@isaclean.ca"> <button class="btn btn-white-transparent font-weight-bold">info@isaclean.ca</button></a>
@@ -30,23 +30,15 @@
 
     <section class="container page py-5">
               <div class="row">
-                 <div class="col-lg-5">
+                 <div class="col-md-6">
                     <img class="img-fluid" src="imgs/welcome-image.png" alt="A floor cleaning specialist scrubbing marble floors with a professional floor scrubbing machine">
                   </div>
-                 <div class="col-lg-7">
+                 <div class="col-md-6">
                      <p>
                          WELCOME TO ISA COMMERCIAL CLEANING SERVICES
-                        <h2>Great Toronto Area <br> Professional Cleaners.</h2>
+                        <h2 class="font-weight-bold">Great Toronto Area <br> Professional Cleaners.</h2>
                         ISA Commercial Cleaning Services is based in Markham and has been serving businesses all over the great toronto area for over 20 years; providing professional commercial cleaning services in cities and towns such as Toronto, Markham, Richmond Hill, Stouffville, Newmarket, Pickering and Oshawa. We have a large, dedicated team of qualified cleaners that primarily provide cleaning services for offices, schools, education facilities, child care centres, churches, gyms and sporting complexes.
                      </p>
-                     <!--
-                    <h2 class="text-uppercase">Markham<br>Professional Cleaners</h2>
-                    <p>ISA Commercial Cleaning Services is based in Markham and has been serving Markham businesses for over 25 years; providing <a href="services">professional commercial cleaning services</a> across Markham. We have a large, dedicated team of qualified cleaners that primarily provide cleaning services for offices, schools, education facilities, child care centres, medical centres, gyms and sporting complexes.</a></p>
-                    <h2 class="text-uppercase">FIRST IMPRESSIONS ARE IMPORTANT</h2>
-                    <p>We understand how important a first impression is to you, your employees and your visitors. We have over 25 years of experience providing professional cleaning services in Markham,  providng cleaning services such as office cleaning services, sanctuary cleaning services and <a href="services">much more.</a></p>
-                    <h2 class="text-uppercase">IMPORTANCE OF THE RIGHT CLEANING SERVICE</h2>
-                    <p>It's more than a mop and broom to us. ISA Commercial Cleaning Services strives to create a healthy cleaning environment for you, your staff and visitors.</p>
-                     -->
                   </div>
 
 
@@ -56,11 +48,11 @@
 
     <section class="container page py-5">
         <h2 class="text-center">What We Clean</h2>
-        <div class="row  text-center">
+        <div class="row">
             <div class="col-md-3">
                 <img class="img-fluid" src='{{asset("imgs/office-cleaning-services.png")}}' alt="sd">
                 <h3>Office Cleaning</h3>
-                <p>Welcome to ISA Commercial Cleaning Services. Your Professional Office Cleaning Service. We have been cleaning offices around Melbourne for over 20yrs. Providing competitive and affordable office cleaning solutions for offices across Toronto, Markham, Richmond Hill, Stouffville, Newmarket, Pickering and Oshawa.</p>
+                <p>Welcome to ISA Commercial Cleaning Services. Your Professional Office Cleaning Service. We have been cleaning offices around the Great Toronto Area for over 20yrs. Providing competitive and affordable office cleaning solutions for offices across Toronto, Markham, Richmond Hill, Stouffville, Newmarket, Pickering and Oshawa.</p>
             </div>
             <div class="col-md-3">
                 <img class="img-fluid" src='{{asset("imgs/commercial-cleaning-services.png")}}' alt="sd">
@@ -85,12 +77,12 @@
             <div class="col-md-3">
                 <img class="img-fluid" src='{{asset("imgs/retail-shopping-complex-cleaning-services.png")}}' alt="sd">
                 <h3>Retail & Shopping Complex Cleaning</h3>
-                <p>Welcome to ISA Commercial CLeaning Services We are leaders in our Industry, offering Melbourne Retail Businesses & Shopping Complexes The Best Professional Commercial Cleaners With Services All over the Great Toronto Area.</p>
+                <p>Welcome to ISA Commercial CLeaning Services We are leaders in our Industry, offering cleaning ervices in cities and towns such as Toronto, Markham, Richmond Hill, Stouffville, Newmarket, Pickering and Oshawa. Retail Businesses & Shopping Complexes The Best Professional Commercial Cleaners With Services All over the Great Toronto Area.</p>
             </div>
             <div class="col-md-3">
                 <img class="img-fluid" src='{{asset("imgs/cinema-theatre-complex-cleaning-services.png")}}' alt="sd">
                 <h3>Cinema & Theatre Complex Cleaning</h3>
-                <p>ISA Commercial Cleaning Services Welcomes You. Providing Commercial Cinema Cleaning & Theatre Cleaning with Services All over Melbourne. Our Rates are Affordable and competitive. Offering the Highest Standard in cleaning Services Customer Satisfaction Guaranteed.</p>
+                <p>ISA Commercial Cleaning Services Welcomes You. Providing Commercial Cinema Cleaning & Theatre Cleaning with Services All over the Great Toronto Area. Our Rates are Affordable and competitive. Offering the Highest Standard in cleaning Services Customer Satisfaction Guaranteed.</p>
             </div>
             <div class="col-md-3">
                 <img class="img-fluid" src='{{asset("imgs/places-of-worship-cleaning-services.png")}}' alt="sd">
@@ -116,7 +108,7 @@
 
                 <div class="col-lg-8 text-right" >
                     <div class="content">
-                       <h2 class="h2">CLEANING SATISFACTION BEGINS WITH COMMUNICATION</h2>
+                       <h2 class="">CLEANING SATISFACTION BEGINS WITH COMMUNICATION</h2>
                        <p>ISA Commercial Cleaning Services believes that first step to provide the best cleaning services not with a mop or a broom, it's through listening, communicating and intiating.</h1>
                      </div>
                  </div>
