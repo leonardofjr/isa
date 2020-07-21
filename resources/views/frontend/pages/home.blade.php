@@ -139,4 +139,25 @@
             </div>
          </div>
     </section>
+ 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                 <img src={{asset("imgs/eco-friendly-cleaning-supplies.png")}} alt="">
+            </div>
+            <div class="col-md-3">
+                 <img src={{asset("imgs/child-safe-cleaning-supplies.png")}} alt="">
+            </div>
+            <div class="col-md-3">
+                 <img src={{asset("imgs/pet-friendly-cleaning-supplies.png")}} alt="">
+            </div>
+            <div class="col-md-3">
+                 <img src={{asset("imgs/bio-detergent-cleaning-supplies.png")}} alt="">
+            </div>
+            <div class="col-md-3">
+                 <img src={{asset("imgs/planet-care-cleaning-supplies.png")}} alt="">
+            </div>
+        </div>
+    </div>
+    
 @endsection
