@@ -16,7 +16,7 @@ class CareersController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages.careers');
+        return view('frontend.pages.careers.index');
     }
 
     public function mail(SendCareerFormValidation $request)

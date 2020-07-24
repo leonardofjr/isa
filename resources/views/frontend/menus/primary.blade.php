@@ -1,7 +1,7 @@
 <?php 
     $menu = [
         'Why Us?' => 'why-us',
-        'Services' => 'services',
+        'Services' => 'clean-services',
         'Careers' => 'careers',
         'Get a Free Quote' => 'get-a-free-quote',
 ];

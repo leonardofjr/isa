@@ -4,11 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\SendQuoteRequest;
-use App\Http\Requests\GetAFreeQuoteFormValidation;
 
-class GetAFreeQuoteController extends Controller
+class SchoolAndUniversityCleaningPageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,12 +14,7 @@ class GetAFreeQuoteController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages.contact.index');
-    }
-
-    public function mail(GetAFreeQuoteFormValidation $request) 
-    {   $to = 'leonardo.f.jr@gmail.com';
-        Mail::to($to)->send(new SendQuoteRequest);
+        //
     }
 
     /**

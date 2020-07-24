@@ -14,7 +14,7 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('frontend/pages/about');
+        return view('frontend.pages.about.index');
     }
 
     /**

@@ -142,7 +142,7 @@
  
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 ">
                  <img src={{asset("imgs/eco-friendly-cleaning-supplies.png")}} alt="">
             </div>
             <div class="col-md-3">
