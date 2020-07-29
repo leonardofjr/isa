@@ -14,7 +14,7 @@ class RetailAndShoppingComplexCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.retail_shopping_complex_cleaning.index');
     }
 
     /**

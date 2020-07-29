@@ -22,6 +22,10 @@ Route::prefix('clean-services')->group(function() {
     Route::get('/', 'Frontend\ServicesController@index')->name('Services');
     Route::get('/childcare-cleaning-services', 'Frontend\ChildcareCleaningPageController@index')->name('Childcare Cleaning Services');
     Route::get('/cinema-theatre-cleaning-services', 'Frontend\CinemaAndTheatreCleaningPageController@index')->name('Cinema Theatre Cleaning Services');
+    Route::get('/commercial-cleaning-services', 'Frontend\CommercialCleaningPageController@index')->name('Commercial Cleaning Services');
+    Route::get('/gym-sporting-complex-cleaning-services', 'Frontend\GymAndSportingComplexCleaningPageController@index')->name('Commercial Cleaning Services');
+    Route::get('/office-cleaning-services', 'Frontend\OfficeCleaningPageController@index')->name('Commercial Cleaning Services');
+    Route::get('/retail-shopping-complex-cleaning-services', 'Frontend\RetailAndShoppingComplexCleaningPageController@index')->name('Commercial Cleaning Services');
 
 });
 

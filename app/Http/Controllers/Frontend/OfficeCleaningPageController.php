@@ -14,7 +14,7 @@ class OfficeCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.office_cleaning.index');
     }
 
     /**

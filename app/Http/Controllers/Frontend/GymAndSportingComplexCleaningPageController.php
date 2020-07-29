@@ -14,7 +14,7 @@ class GymAndSportingComplexCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.gym_sporting_complex_cleaning.index');
     }
 
     /**

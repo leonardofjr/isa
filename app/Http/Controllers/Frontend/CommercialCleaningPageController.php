@@ -14,7 +14,7 @@ class CommercialCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.commercial_cleaning.index');
     }
 
     /**
