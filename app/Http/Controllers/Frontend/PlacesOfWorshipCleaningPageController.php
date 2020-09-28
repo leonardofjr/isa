@@ -14,7 +14,7 @@ class PlacesOfWorshipCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.churches_places_of_worship_cleaning.index');
     }
 
     /**

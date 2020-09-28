@@ -14,7 +14,7 @@ class SchoolAndUniversityCleaningPageController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages.services.subpages.school_university_cleaning.index');
     }
 
     /**
